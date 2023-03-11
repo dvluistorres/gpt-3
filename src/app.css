@@ -105,3 +105,11 @@ a {
     margin: 4rem 2rem;
   }
 }
+
+@media screen and (min-width: 1850px) {
+  body {
+    max-width: 1850px;
+    margin: 0 auto 0 auto;
+  }
+
+}

@@ -1,8 +1,8 @@
 import './devFooterStyle.css';
 
-const footer = (() => {
+const devFooter = (() => {
   const add = () => {
-    const footerDiv = document.getElementById('footer');
+    const footerDiv = document.getElementById('devFooter');
     footerDiv.innerText = 'Copyright © 2021 devLuisTorres';
     const githubLogo = new Image();
     githubLogo.src = 'https://www.svgrepo.com/show/503359/github.svg';
@@ -14,4 +14,4 @@ const footer = (() => {
   return { add };
 })();
 
-export default footer
+export default devFooter

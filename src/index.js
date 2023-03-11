@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { footer } from './containers';
+import { devFooter } from './containers';
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,5 +11,5 @@ root.render(
   </React.StrictMode>
 );
 
-footer.add()
+devFooter.add()
 

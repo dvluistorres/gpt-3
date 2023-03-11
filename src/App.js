@@ -1,5 +1,5 @@
 import React from "react";
-import { Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+import { Blog, Possibility, Features, WhatGPT3, Header, Footer } from './containers';
 import { CTA, Brand, Navbar} from './modules'
 import './app.css'
 
@@ -16,6 +16,8 @@ function App() {
       <Possibility />
       <CTA />
       <Blog />
+      <Footer />
+
     </div>
   );
 }
